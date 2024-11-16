@@ -1,0 +1,57 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+nav{
+  background-color: papayawhip;
+  padding: 15px;
+}
+.navdiv{
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+ padding: 15px;
+}
+.logo a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: palevioletred;
+}
+ul li{
+  display: inline-block;
+  margin-left: 1rem;
+}
+ul li a, button a{
+  text-decoration: none;
+  list-style: none;
+  color:plum;
+  font-weight: 600;
+}
+button{
+  margin-left: 1rem;
+  padding: 0.3rem;
+  padding-right: 0.6rem;
+  padding-left: 0.6rem;
+  background: palevioletred;
+  color:papayawhip;
+  border: transparent;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+.hero{
+  background: palevioletred;
+  height: 88vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .heading{
+  padding-right: 2rem;
+  font-size: 3rem;
+}
+.hero img{
+  width: 25rem;
+}
