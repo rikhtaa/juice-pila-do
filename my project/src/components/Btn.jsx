@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 
 export const btn = () => {
     //it made variable count and put 3 and now updateing it
-    const [count,countplus] = useState(3)
+    const [count,setCount] = useState(3)
   function countplus(){
-    count++
+    setCount(count++)
   }
     
   return (
