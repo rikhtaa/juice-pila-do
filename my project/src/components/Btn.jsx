@@ -10,7 +10,7 @@ export const btn = () => {
   return (
     <div>
         <div>App {count}</div>
-        <button onClick={countplus()}>Count</button>
+        <button onClick={countplus}>Count</button>
     </div>
   )
 }
