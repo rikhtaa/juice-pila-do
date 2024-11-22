@@ -1,8 +1,9 @@
 
 import './App.css'
+import { Btn } from './components/btn'
 import { Hero } from './components/Hero'
 import Nav from './components/Nav'
-import { Btn } from './components/Btn'
+
 function App() {
   return (
     <div>

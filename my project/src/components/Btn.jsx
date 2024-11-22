@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const btn = () => {
+export const Btn = () => {
     //it made variable count and put 3 and now updateing it
     const [count,setCount] = useState(3)
   function countplus(){
