@@ -1,6 +1,6 @@
 
 import './App.css'
-import { Btn } from './components/btn'
+import { Btn } from './components/Btn'
 import { Hero } from './components/Hero'
 import Nav from './components/Nav'
 
